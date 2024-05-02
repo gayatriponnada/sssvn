@@ -20,6 +20,12 @@
 			<a href="/aboutus">About us</a>
 		</li>
 		<li>
+			<a href="/academics">Academics</a>
+		</li>
+		<li>
+			<a href="/newsroom">Newsroom</a>
+		</li>
+		<li>
 			<a href="/events">Events</a>
 		</li>
 		<li>
@@ -37,6 +43,12 @@
 			</li>
 			<li>
 				<a href="/aboutus">About us</a>
+			</li>
+			<li>
+				<a href="/academics">Academics</a>
+			</li>
+			<li>
+				<a href="/newsroom">Newsroom</a>
 			</li>
 			<li>
 				<a href="/events">Events</a>

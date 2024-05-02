@@ -5,9 +5,7 @@
 </script>
 
 <main class="flex flex-col gap-10">
-	<div class="pl-10 pt-10">
-		<h2 class="text-primary text-3xl font-extralight">About Us</h2>
-	</div>
+	<h2 class="text-primary text-3xl font-extralight pl-10 pt-10">About Us</h2>
 	<div class="flex items-center flex-col gap-5">
 		<div class="w-4/5 h-4/5">
 			<img src={School} alt="School" />
@@ -36,7 +34,7 @@
 	</div>
 	<div class=" flex justify-center">
 		<div class=" flex justify-evenly w-4/5 bg-secondary rounded-lg">
-			<div class="w-3/5 items-center">
+			<div class="w-3/5">
 				<h4 class="text-2xl text-primary py-5">From Chairman's Desk</h4>
 				<p class="text-justify pb-5">
 					"A good ambience is a must for any student to learn. Sri Shirdi Sai has gifted this
