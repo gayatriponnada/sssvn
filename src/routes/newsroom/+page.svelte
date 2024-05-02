@@ -7,16 +7,17 @@
 	import News6 from '../images/news6.jpeg';
 </script>
 
-<div class="flex flex-wrap-reverse w-4/5 h-4/5">
-	<img src={News1} alt="news1" class="h-1/5 w-1/5" />
-
-	<img src={News2} alt="news2" class="h-1/5 w-1/5" />
-
-	<img src={News3} alt="news3" class="h-1/5 w-1/5" />
-
-	<img src={News4} alt="news4" class="h-1/5 w-1/5" />
-
-	<img src={News5} alt="news5" class="h-4/5 w-4/5" />
-
-	<img src={News6} alt="news6" class="h-4/5 w-4/5" />
+<h2 class="text-primary text-3xl font-extralight pl-10 pt-10">News Room</h2>
+<div class="flex flex-wrap justify-center items-center px-10 mt-10 mx-10 bg-secondary rounded-lg">
+	<img src={News1} alt="news1" class="h-1/5 w-1/5 p-5 mx-10 mt- 10 bg-card rounded-lg" />
+	<img src={News2} alt="news2" class="h-1/5 w-1/5 p-5 mx-10 mt-10 bg-card rounded-lg" />
+	<img src={News3} alt="news3" class="h-1/5 w-1/5 p-5 mx-10 mt-10 bg-card rounded-lg" />
+	<img src={News4} alt="news4" class="h-1/5 w-1/5 p-5 mx-10 mb-5 bg-card rounded-lg" />
+	<img src={News5} alt="news5" class="h-1/5 w-1/5 p-5 mx-10 bg-card rounded-lg" />
+	<img src={News6} alt="news6" class="h-1/5 w-1/5 p-5 mx-10 bg-card rounded-lg" />
 </div>
+<!-- <div></div>
+	</div>
+
+	<div></div>
+	<div></div> -->

@@ -9,7 +9,8 @@
 </script>
 
 <div class="flex flex-col">
-	<div class="flex justify-center py-10 bg-secondary">
+	<h2 class="text-primary text-3xl font-extralight pl-10 pt-10">Academics</h2>
+	<div class="flex justify-center py-5 mt-10 bg-secondary">
 		<div class="w-3/5">
 			<h4 class=" text-2xl text-primary py-5">Curriculum</h4>
 			<p>Professional. Practiced. Prepared.</p>
@@ -31,7 +32,7 @@
 			<img src={Curriculam} alt="photo" />
 		</div>
 	</div>
-	<div class="flex justify-center bg-secondary py-10">
+	<div class="flex justify-center bg-secondary py-5">
 		<div class="flex items-center w-1/5 h-1/5">
 			<img src={Unique} alt="photo" />
 		</div>
@@ -63,7 +64,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="flex justify-center py-10 bg-secondary">
+	<div class="flex justify-center py-5 bg-secondary">
 		<div class="w-3/5">
 			<h4 class=" text-2xl text-primary py-5">Making a Difference</h4>
 			<p class="text-justify">
