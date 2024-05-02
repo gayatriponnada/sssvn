@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Icon from './images/icon.png';
-	import Sssvn from './images/sssvn.jpeg';
 	import Autoplay from 'embla-carousel-autoplay';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
@@ -12,10 +10,6 @@
 	<title>Sri Shiridi Sai Vidya Niketan</title>
 </svelte:head>
 
-<div class="my-5 mx-5 flex justify-between">
-	<div class="px-10"><img src={Sssvn} alt="sssvn" /></div>
-	<div class="px-10"><img src={Icon} alt="icon" class="w-32 h-32" /></div>
-</div>
 <Carousel.Root
 	plugins={[plugin]}
 	class="w-full max-w-xs"

@@ -5,9 +5,11 @@
 </script>
 
 <main class="flex flex-col gap-10">
-	<h2 class="text-primary text-2xl">About Us</h2>
+	<div class="pl-10 pt-10">
+		<h2 class="text-primary text-3xl font-extralight">About Us</h2>
+	</div>
 	<div class="flex items-center flex-col gap-5">
-		<div class="w-1/2 h-1/2">
+		<div class="w-4/5 h-4/5">
 			<img src={School} alt="School" />
 		</div>
 		<div class="px-10">
@@ -35,8 +37,8 @@
 	<div class=" flex justify-center">
 		<div class=" flex justify-evenly w-4/5 bg-secondary rounded-lg">
 			<div class="w-3/5 items-center">
-				<h4 class="text-2xl text-primary">From Chairman's Desk</h4>
-				<p class="text-justify">
+				<h4 class="text-2xl text-primary py-5">From Chairman's Desk</h4>
+				<p class="text-justify pb-5">
 					"A good ambience is a must for any student to learn. Sri Shirdi Sai has gifted this
 					ambience to the students creating ideal conditions for studying. One would perhaps dream
 					to go back to the past and intend to flourish in this serene atmosphere once again and
@@ -56,12 +58,12 @@
 	</div>
 	<div class="flex justify-center">
 		<div class="flex justify-evenly w-4/5 bg-secondary rounded-lg">
-			<div class="py-10 items-center">
+			<div class="py-10">
 				<img src={Director} alt="Director" class="rounded-md" />
 			</div>
 			<div class="w-3/5">
-				<h4 class="text-2xl text-primary">From Director's Desk</h4>
-				<p class="text-justify">
+				<h4 class="text-2xl text-primary py-5">From Director's Desk</h4>
+				<p class="text-justify pb-5">
 					"Although we value academic success highly, however we also appreciate that other
 					qualities are equally important to be successful in life. By creating a positive
 					environment and a wide range of educational experiences, we provide opportunities for our
