@@ -49,14 +49,14 @@
 					obscurity to occupy an enviable place among the leading institutions in the State."
 				</p>
 			</div>
-			<div class="py-10">
+			<div class="py-10 flex items-center">
 				<img src={Chairman} alt="Chairman" class="rounded-md" />
 			</div>
 		</div>
 	</div>
 	<div class="flex justify-center">
 		<div class="flex justify-evenly w-4/5 bg-secondary rounded-lg">
-			<div class="py-10">
+			<div class="flex items-center py-10">
 				<img src={Director} alt="Director" class="rounded-md" />
 			</div>
 			<div class="w-3/5">

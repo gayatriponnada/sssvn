@@ -5,6 +5,7 @@
 	import Notifications from '$lib/components/notifications.svelte';
 	import Homepageimage1 from '$lib/images/home-page-image1.png';
 	import Homepageimage2 from '$lib/images/home-page-image2.jpg';
+	import Homepageimage3 from '$lib/images/home-page-image3.jpg';
 
 	const images = [
 		{
@@ -15,6 +16,11 @@
 		{
 			id: 2,
 			src: Homepageimage2,
+			alt: 'School'
+		},
+		{
+			id: 3,
+			src: Homepageimage3,
 			alt: 'School'
 		}
 	];

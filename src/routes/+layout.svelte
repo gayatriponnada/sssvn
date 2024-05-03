@@ -36,8 +36,8 @@
 <slot />
 <footer class="flex justify-evenly bg-secondary mt-10">
 	<div class="py-10">
-		<b class="text-2xl">Quick Links</b>
-		<ul class="flex flex-col gap-3 text-1xl">
+		<b class="text-2xl text-primary">Quick Links</b>
+		<ul class="flex flex-col gap-3 text-1xl fixed">
 			<li class="pt-3">
 				<a href="/">Home</a>
 			</li>
@@ -59,10 +59,10 @@
 		</ul>
 	</div>
 	<div class="flex flex-col gap-3 py-10">
-		<b class="text-2xl">Info</b>
+		<b class="text-2xl text-primary">Info</b>
 		<div class="flex justify-start">
 			<Location />
-			<p class="pl-5">A unit of Sri Shirdi Sai Vidya Niketan EM School</p>
+			<p class="pl-5">Kadiyam</p>
 		</div>
 		<div class="flex justify-start">
 			<Phone />
