@@ -3,9 +3,9 @@
 	import Success from '../success.svelte';
 	import Thrive from '../thrive.svelte';
 	import World from '../world.svelte';
-	import Curriculam from '../images/curriculam.png';
-	import Makingdifference from '../images/making-difference.png';
-	import Unique from '../images/unique.png';
+	import Curriculum from '$lib/images/curriculum.png';
+	import Makingdifference from '$lib/images/making-difference.png';
+	import Unique from '$lib/images/unique.png';
 </script>
 
 <div class="flex flex-col">
@@ -29,12 +29,12 @@
 			</p>
 		</div>
 		<div class=" flex items-center pl-5 w-1/4 h-1/4">
-			<img src={Curriculam} alt="photo" />
+			<img src={Curriculum} alt="curriculum" />
 		</div>
 	</div>
 	<div class="flex justify-center bg-secondary py-5">
 		<div class="flex items-center w-1/5 h-1/5">
-			<img src={Unique} alt="photo" />
+			<img src={Unique} alt="unique" />
 		</div>
 		<div class="w-3/5 pl-5">
 			<h4 class=" text-2xl text-primary py-5">Unique & Inspiring Academics</h4>
@@ -78,7 +78,7 @@
 			</p>
 		</div>
 		<div class=" flex items-center pl-5 w-1/4 h-1/4">
-			<img src={Makingdifference} alt="photo" />
+			<img src={Makingdifference} alt="unique" />
 		</div>
 	</div>
 </div>

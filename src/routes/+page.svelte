@@ -3,13 +3,13 @@
 	import * as Card from '$lib/components/ui/card/index.js';
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 	import Notifications from '$lib/components/notifications.svelte';
-	import School from './images/school.jpg';
-	import Chairman from './images/chairman.jpeg';
-	import Director from './images/director.jpeg';
+	import School from '$lib/images/school.jpg';
+	import Chairman from '$lib/images/chairman.jpeg';
+	import Director from '$lib/images/director.jpeg';
 	const images = [
 		{
 			id: 1,
-			src: './images/school.jpg',
+			src: School,
 			alt: 'School'
 		},
 		{
@@ -37,13 +37,12 @@
 	on:mouseleave={plugin.reset}
 >
 	<Carousel.Content>
-		<!-- {#each Array(5) as _, i (i)} -->
 		{#each images as image (image.id)}
 			<Carousel.Item>
 				<div class="p-1">
 					<Card.Root>
 						<Card.Content class="flex aspect-square items-center justify-center p-6">
-							<span class="text-4xl font-semibold">{image.src}</span>
+							<img src={image.src} alt="hey" />
 						</Card.Content>
 					</Card.Root>
 				</div>

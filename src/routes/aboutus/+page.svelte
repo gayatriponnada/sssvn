@@ -1,7 +1,7 @@
 <script lang="ts">
-	import School from '../images/school.jpg';
-	import Chairman from '../images/chairman.jpeg';
-	import Director from '../images/director.jpeg';
+	import School from '$lib/images/school.jpg';
+	import Chairman from '$lib/images/chairman.jpeg';
+	import Director from '$lib/images/director.jpeg';
 </script>
 
 <main class="flex flex-col gap-10">

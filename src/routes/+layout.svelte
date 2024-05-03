@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
-	import Icon from './images/icon.png';
-	import Sssvn from './images/sssvn.jpeg';
+	import Icon from '$lib/images/icon.png';
+	import Sssvn from '$lib/images/sssvn.jpeg';
 	import Location from './location-icon.svelte';
 	import Phone from './phone-icon.svelte';
 	import Mail from './email-icon.svelte';

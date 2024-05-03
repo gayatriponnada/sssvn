@@ -1,10 +1,10 @@
 <script lang="ts">
-	import News1 from '../images/news1.jpeg';
-	import News2 from '../images/news2.jpeg';
-	import News3 from '../images/news3.jpeg';
-	import News4 from '../images/news4.jpeg';
-	import News5 from '../images/news5.jpeg';
-	import News6 from '../images/news6.jpeg';
+	import News1 from '$lib/images/news1.jpeg';
+	import News2 from '$lib/images/news2.jpeg';
+	import News3 from '$lib/images/news3.jpeg';
+	import News4 from '$lib/images/news4.jpeg';
+	import News5 from '$lib/images/news5.jpeg';
+	import News6 from '$lib/images/news6.jpeg';
 </script>
 
 <h2 class="text-primary text-3xl font-extralight pl-10 pt-10">News Room</h2>
