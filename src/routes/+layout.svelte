@@ -7,12 +7,12 @@
 	import Mail from './email-icon.svelte';
 </script>
 
-<div class="my-5 mx-5 flex justify-between">
-	<div class="px-10"><img src={Sssvn} alt="sssvn" /></div>
-	<div class="px-10"><img src={Icon} alt="icon" class="w-32 h-32" /></div>
+<div class=" mt-2 flex justify-between">
+	<div class=" pl-5"><img src={Sssvn} alt="sssvn" /></div>
+	<div class=" pr-5"><img src={Icon} alt="icon" class="w-32 h-32" /></div>
 </div>
-<nav>
-	<ul class="flex justify-evenly font-serif text-2xl">
+<nav class="sticky top-0 bg-card">
+	<ul class="flex justify-evenly font-serif text-2xl border-b-2 p-5">
 		<li>
 			<a href="/">Home</a>
 		</li>
@@ -37,7 +37,7 @@
 <footer class="flex justify-evenly bg-secondary mt-10">
 	<div class="py-10">
 		<b class="text-2xl text-primary">Quick Links</b>
-		<ul class="flex flex-col gap-3 text-1xl fixed">
+		<ul class="flex flex-col gap-3 text-1xl">
 			<li class="pt-3">
 				<a href="/">Home</a>
 			</li>

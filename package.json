@@ -22,6 +22,7 @@
 		"@typescript-eslint/eslint-plugin": "^7.0.0",
 		"@typescript-eslint/parser": "^7.0.0",
 		"autoprefixer": "^10.4.19",
+		"drizzle-kit": "^0.20.17",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
@@ -39,6 +40,8 @@
 	"dependencies": {
 		"bits-ui": "^0.21.7",
 		"clsx": "^2.1.1",
+		"dotenv": "^16.4.5",
+		"drizzle-orm": "^0.30.10",
 		"embla-carousel-autoplay": "^8.0.2",
 		"embla-carousel-svelte": "^8.0.2",
 		"svelte-radix": "^1.1.0",

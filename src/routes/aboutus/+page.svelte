@@ -10,7 +10,7 @@
 		<div class="w-4/5 h-4/5">
 			<img src={School} alt="School" />
 		</div>
-		<div class="px-10">
+		<div class="px-10 bg-secondary py-10 md:py-0 md:bg-card">
 			<p class="text-justify">
 				<b class="text-primary"
 					>Sri Shirdi Sai Vidya Niketan is a 21st century school a "School with a Soul".
@@ -33,8 +33,8 @@
 		</div>
 	</div>
 	<div class=" flex justify-center">
-		<div class=" flex justify-evenly w-4/5 bg-secondary rounded-lg">
-			<div class="w-3/5">
+		<div class=" md:flex md:justify-evenly md:w-4/5 bg-secondary rounded-lg">
+			<div class="md:w-3/5 px-5">
 				<h4 class="text-2xl text-primary py-5">From Chairman's Desk</h4>
 				<p class="text-justify pb-5">
 					"A good ambience is a must for any student to learn. Sri Shirdi Sai has gifted this
@@ -49,17 +49,17 @@
 					obscurity to occupy an enviable place among the leading institutions in the State."
 				</p>
 			</div>
-			<div class="py-10 flex items-center">
+			<div class="py-10 md:flex md:items-center flex justify-center">
 				<img src={Chairman} alt="Chairman" class="rounded-md" />
 			</div>
 		</div>
 	</div>
 	<div class="flex justify-center">
-		<div class="flex justify-evenly w-4/5 bg-secondary rounded-lg">
-			<div class="flex items-center py-10">
-				<img src={Director} alt="Director" class="rounded-md" />
+		<div class="md:flex md:justify-evenly md:w-4/5 bg-secondary rounded-lg">
+			<div class="md:flex md:items-center py-10 flex justify-center">
+				<img src={Director} alt="Director" class="rounded-md pl-5" />
 			</div>
-			<div class="w-3/5">
+			<div class="md:w-3/5 px-5">
 				<h4 class="text-2xl text-primary py-5">From Director's Desk</h4>
 				<p class="text-justify pb-5">
 					"Although we value academic success highly, however we also appreciate that other
