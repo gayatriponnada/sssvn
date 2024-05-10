@@ -33,7 +33,7 @@
 <div class="flex justify-center">
 	<Carousel.Root
 		plugins={[plugin]}
-		class="w-full m-auto max-w-xs"
+		class="w-full max-w-xs "
 		on:mousenter={plugin.stop}
 		on:mouseleave={plugin.reset}
 	>
