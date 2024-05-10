@@ -5,6 +5,9 @@
 	import Location from './location-icon.svelte';
 	import Phone from './phone-icon.svelte';
 	import Mail from './email-icon.svelte';
+	import MenuIcon from './menu-icon.svelte';
+
+	let menuOpen = false;
 </script>
 
 <div class=" mt-2 flex justify-between">
@@ -12,7 +15,15 @@
 	<div class=" pr-5"><img src={Icon} alt="icon" class="w-32 h-32" /></div>
 </div>
 <nav class="sticky top-0 bg-card">
-	<ul class="flex justify-evenly font-serif text-2xl border-b-2 p-5">
+	<ul class="flex md:flex-row justify-evenly font-serif text-2xl border-b-2 p-5 flex-col">
+		<button on:click={() => (menuOpen = !menuOpen)} class="md:hidden flex justify-end">
+			{#if menuOpen}
+				<strong>&times</strong>
+			{/if}
+			{#if !menuOpen}
+				<span><MenuIcon /></span>
+			{/if}
+		</button>
 		<li>
 			<a href="/">Home</a>
 		</li>
@@ -34,7 +45,7 @@
 	</ul>
 </nav>
 <slot />
-<footer class="flex justify-evenly bg-secondary mt-10">
+<footer class="flex md:justify-evenly justify-between bg-secondary mt-10 px-5">
 	<div class="py-10">
 		<b class="text-2xl text-primary">Quick Links</b>
 		<ul class="flex flex-col gap-3 text-1xl">

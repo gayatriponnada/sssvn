@@ -2,8 +2,8 @@
 	import * as Card from '$lib/components/ui/card/index.js';
 </script>
 
-<div class="flex justify-evenly mt-10">
-	<Card.Root class="w-2/6 h-2/6 py-5">
+<div class="flex justify-evenly md:flex-row flex-col mt-10 gap-10">
+	<Card.Root class="md:w-2/6 md:h-2/6 py-5">
 		<Card.Header class="pb-3">
 			<Card.Title class="text-primary text-2xl font-serif">News Room</Card.Title>
 			<Card.Description>Get all the updates here!!!</Card.Description>
@@ -18,7 +18,6 @@
 						<p class="text-sm text-muted-foreground">State 14th Rank</p>
 					</a>
 				</div>
-				<!-- <p class="flex justify-end">2021</p> -->
 			</div>
 			<div
 				class="-mx-2 flex items-start space-x-4 rounded-md hover:bg-accent p-3 text-accent-foreground transition-all"
@@ -42,7 +41,7 @@
 			</div>
 		</Card.Content>
 	</Card.Root>
-	<Card.Root class="w-2/6 h-2/6 py-5">
+	<Card.Root class="md:w-2/6 md:h-2/6 py-5">
 		<Card.Header class="pb-3 ">
 			<Card.Title class="text-primary text-2xl font-serif">Events</Card.Title>
 			<Card.Description>Check all the events!!!</Card.Description>
@@ -57,7 +56,6 @@
 						<p class="text-sm text-muted-foreground">Soprts Day'24</p>
 					</a>
 				</div>
-				<!-- <p class="flex justify-end">2021</p> -->
 			</div>
 			<div
 				class="-mx-2 flex items-start space-x-4 rounded-md hover:bg-accent p-3 text-accent-foreground transition-all"

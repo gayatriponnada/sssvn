@@ -8,14 +8,14 @@
 </script>
 
 <h2 class="text-primary text-3xl font-extralight pl-10 pt-10">Events</h2>
-<div class="m-10 bg-secondary rounded-lg">
-	<div class="flex items-center justify-center py-5 border-2">
-		<div class=" w-1/4 h-1/4">
+<div class="md:m-10 mt-5 bg-secondary rounded-lg">
+	<div class="flex items-center justify-center md:flex-row flex-col py-5 border-2">
+		<div class=" md:w-1/4 md:h-1/4">
 			<img src={Events1} alt="Events1" class="rounded-lg" />
 		</div>
-		<div class=" w-3/5 h-3/5">
+		<div class=" md:w-3/5 md:h-3/5 p-5 md:p-0">
 			<h4 class="text-2xl text-primary">Kreedosthav</h4>
-			<p class="text-justify">
+			<p class="text-justify py-5">
 				On the 22nd of August 2024, the Sports Day unfolded with an extra layer of excitement and
 				anticipation as the distinguished Chess player Koneru Humpy, graced the event as the chief
 				guest. Students then participate in a range of track and field events, such as sprint races,
@@ -28,11 +28,11 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex items-center justify-center border-2 pt-5">
-		<div class="flex w-1/4 h-1/4">
+	<div class="flex items-center justify-center md:flex-row flex-col border-2 pt-5">
+		<div class=" md:w-1/4 md:h-1/4">
 			<img src={Events2} alt="Events2" class="rounded-lg" />
 		</div>
-		<div class=" w-3/5 h-3/5">
+		<div class="md:w-3/5 md:h-3/5 p-5 md:p-0">
 			<h4 class="text-2xl text-primary">Republic Day Celebrations</h4>
 			<p class="text-justify py-5">
 				Republic Day celebrations are a cherished tradition, fostering a sense of national pride and
@@ -47,12 +47,12 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex items-center justify-center border-2">
-		<div class=" w-1/4 h-1/4">
+	<div class="flex items-center justify-center md:flex-row flex-col border-2">
+		<div class=" md:w-1/4 md:h-1/4 pt-5 md:pt-0">
 			<img src={Events3} alt="Events3" class="rounded-lg" />
 		</div>
-		<div class=" w-3/5 h-3/5">
-			<h4 class="text-2xl text-primary pt-5">Arts Exhibition</h4>
+		<div class=" md:w-3/5 md:h-3/5 p-5 md:p-0">
+			<h4 class="text-2xl text-primary md:pt-5">Arts Exhibition</h4>
 			<p class="text-justify py-5">
 				Art exhibitions are vibrant showcases of creativity, talent, and imagination, where
 				students' artistic endeavors take center stage. These exhibitions, dedicated galleries
@@ -69,11 +69,11 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex items-center justify-center border-2">
-		<div class="py-5 w-1/4 h-1/4">
+	<div class="flex items-center justify-center flex-col md:flex-row border-2">
+		<div class="md:py-5 md:w-1/4 md:h-1/4 pt-5">
 			<img src={Events4} alt="Events4" class="rounded-lg" />
 		</div>
-		<div class="py-5 w-3/5 h-3/5">
+		<div class="md:py-5 md:w-3/5 md:h-3/5 p-5 md:p-0">
 			<h4 class="text-2xl text-primary">Group Formation Day</h4>
 			<p class="text-justify py-5">
 				In this Group Formation it consists of STAR Batch - <strong class="text-red-600">
@@ -87,11 +87,11 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex items-center justify-center border-2">
-		<div class=" py-5 w-1/4 h-1/4">
+	<div class="flex items-center justify-center flex-col md:flex-row border-2">
+		<div class=" md:py-5 md:w-1/4 md:h-1/4 pt-5">
 			<img src={Events5} alt="Events5" class="rounded-lg" />
 		</div>
-		<div class="w-3/5 h-3/5">
+		<div class="md:w-3/5 md:h-3/5 p-5 md:p-0">
 			<h4 class="text-2xl text-primary">Teachers Day Celebrations</h4>
 			<p class="text-justify py-5">
 				Techers Day which was held on <strong> September - 05 </strong> to showcase heartfelt tribute
@@ -102,11 +102,11 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex items-center justify-evenly mt-5 border-2">
-		<div class="py-5 w-64 h-64">
+	<div class="flex items-center justify-evenly flex-col md:flex-row border-2">
+		<div class="md:py-5 w-64 h-64 pt-5">
 			<img src={Events6} alt="Events6" class="rounded-lg" />
 		</div>
-		<div class="py-5 w-3/5 h-3/5">
+		<div class="md:py-5 md:w-3/5 md:h-3/5 px-5 pb-5 md:p-0">
 			<h4 class="text-2xl text-primary">Yoga Day</h4>
 			<p class="text-justify py-5">
 				Yoga Day in schools is a wonderful opportunity to introduce students to the ancient practice

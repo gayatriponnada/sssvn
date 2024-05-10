@@ -13,7 +13,7 @@
 		<div class="px-10 bg-secondary py-10 md:py-0 md:bg-card">
 			<p class="text-justify">
 				<b class="text-primary"
-					>Sri Shirdi Sai Vidya Niketan is a 21st century school a "School with a Soul".
+					>Sri Shiridi Sai Vidya Niketan is a 21st century school a "School with a Soul".
 				</b><br />Leading together, we set out to be a model of excellence in learning. We provide
 				an ambience where education is not judged on the basis of marks and ranks. We spot out the
 				potential the child possesses and turn them to the face of their real talent because we
@@ -37,16 +37,17 @@
 			<div class="md:w-3/5 px-5">
 				<h4 class="text-2xl text-primary py-5">From Chairman's Desk</h4>
 				<p class="text-justify pb-5">
-					"A good ambience is a must for any student to learn. Sri Shirdi Sai has gifted this
+					"A good ambience is a must for any student to learn. Sri Shiridi Sai has gifted this
 					ambience to the students creating ideal conditions for studying. One would perhaps dream
 					to go back to the past and intend to flourish in this serene atmosphere once again and
 					experience the natural touch besides enjoying the sophisticated equipment provided for
 					learning purpose. It is not an exaggeration to say that our institutions has all the
 					necessary ingredients to be imbibed in the students to accomplish the Human Excellence and
 					Personality Development which is the need of the hour. At a time when commercialization of
-					education is the order of the day. we at Sri Shirdi Sai Group of Educational Institutions,
-					dedicated as we are to quality education, within a short span, moved from relative
-					obscurity to occupy an enviable place among the leading institutions in the State."
+					education is the order of the day. we at Sri Shiridi Sai Group of Educational
+					Institutions, dedicated as we are to quality education, within a short span, moved from
+					relative obscurity to occupy an enviable place among the leading institutions in the
+					State."
 				</p>
 			</div>
 			<div class="py-10 md:flex md:items-center flex justify-center">
@@ -55,8 +56,10 @@
 		</div>
 	</div>
 	<div class="flex justify-center">
-		<div class="md:flex md:justify-evenly md:w-4/5 bg-secondary rounded-lg">
-			<div class="md:flex md:items-center py-10 flex justify-center">
+		<div
+			class="flex md:justify-evenly md:flex-row flex-col-reverse md:w-4/5 bg-secondary rounded-lg"
+		>
+			<div class=" py-10 flex justify-center md:items-center">
 				<img src={Director} alt="Director" class="rounded-md pl-5" />
 			</div>
 			<div class="md:w-3/5 px-5">
