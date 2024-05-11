@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
-	import Icon from '$lib/images/icon.png';
+	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
+	import { Button } from '$lib/components/ui/button/index';
 	import Sssvn from '$lib/images/sssvn.jpeg';
 	import Location from './location-icon.svelte';
 	import Phone from './phone-icon.svelte';
@@ -10,20 +11,39 @@
 	let menuOpen = false;
 </script>
 
-<div class=" mt-2 flex justify-between">
+<div class=" mt-2 flex justify-center">
 	<div class=" pl-5"><img src={Sssvn} alt="sssvn" /></div>
-	<div class=" pr-5"><img src={Icon} alt="icon" class="w-32 h-32" /></div>
 </div>
 <nav class="sticky top-0 bg-card">
-	<ul class="flex md:flex-row justify-evenly font-serif text-2xl border-b-2 p-5 flex-col">
-		<button on:click={() => (menuOpen = !menuOpen)} class="md:hidden flex justify-end">
-			{#if menuOpen}
-				<strong>&times</strong>
-			{/if}
-			{#if !menuOpen}
-				<span><MenuIcon /></span>
-			{/if}
-		</button>
+	<DropdownMenu.Root>
+		<DropdownMenu.Trigger asChild let:builder>
+			<Button
+				on:click={() => (menuOpen = !menuOpen)}
+				builders={[builder]}
+				variant="outline"
+				class="md:hidden flex justify-end ml-3 "
+			>
+				{#if menuOpen}
+					<strong>&times</strong>
+				{/if}
+				{#if !menuOpen}
+					<span><MenuIcon /></span>
+				{/if}</Button
+			>
+		</DropdownMenu.Trigger>
+		<DropdownMenu.Content class="w-full h-full">
+			<DropdownMenu.Group>
+				<DropdownMenu.Item><a href="/"> Home </a></DropdownMenu.Item>
+				<DropdownMenu.Item><a href="/aboutus">About us</a></DropdownMenu.Item>
+				<DropdownMenu.Item><a href="/academics">Academics</a></DropdownMenu.Item>
+				<DropdownMenu.Item><a href="/newsroom">Newsroom</a></DropdownMenu.Item>
+				<DropdownMenu.Item><a href="/events">Evnets</a></DropdownMenu.Item>
+				<DropdownMenu.Item><a href="/contact">Contact</a></DropdownMenu.Item>
+			</DropdownMenu.Group>
+			<DropdownMenu.Separator />
+		</DropdownMenu.Content>
+	</DropdownMenu.Root>
+	<ul class="md:flex md:flex-row md:justify-evenly font-serif text-2xl border-b-2 p-5 hidden">
 		<li>
 			<a href="/">Home</a>
 		</li>

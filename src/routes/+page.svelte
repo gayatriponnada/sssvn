@@ -30,6 +30,7 @@
 <svelte:head>
 	<title>Sri Shiridi Sai Vidya Niketan</title>
 </svelte:head>
+<h2 class="text-primary text-3xl font-extralight pl-10 pt-10">Home</h2>
 <div class="flex justify-center">
 	<Carousel.Root
 		plugins={[plugin]}
@@ -37,7 +38,7 @@
 		on:mousenter={plugin.stop}
 		on:mouseleave={plugin.reset}
 	>
-		<Carousel.Content class="">
+		<Carousel.Content>
 			{#each images as image (image.id)}
 				<Carousel.Item>
 					<div class="p-1">
