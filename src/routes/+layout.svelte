@@ -43,9 +43,11 @@
 			<DropdownMenu.Separator />
 		</DropdownMenu.Content>
 	</DropdownMenu.Root>
-	<ul class="md:flex md:flex-row md:justify-evenly font-serif text-2xl border-b-2 p-5 hidden">
+	<ul
+		class="md:flex md:flex-row md:justify-evenly font-serif text-2xl border-b-2 p-5 hidden target:bg-primary"
+	>
 		<li>
-			<a href="/">Home</a>
+			<a class="" href="/">Home</a>
 		</li>
 		<li>
 			<a href="/aboutus">About us</a>
