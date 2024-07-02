@@ -5,7 +5,7 @@
 
 <h2 class="text-primary text-3xl font-extralight pl-10 pt-10">Contact Us</h2>
 <form action="?/add" method="post" class="flex justify-center mt-10">
-	<div class=" w-2/5 border-2 rounded-md">
+	<div class=" md:w-2/5 border-2 rounded-md">
 		<fieldset>
 			<header class="flex justify-center text-3xl font-extralight p-5">Contact</header>
 			<div class="flex flex-col gap-5 py-2 px-5">
@@ -25,7 +25,7 @@
 				<textarea name="message" class="border-2 rounded-md" placeholder="Type here..."></textarea>
 			</div>
 			<div class="p-5">
-				<Button type="submit" class="p-5 w-full">Submit</Button>
+				<Button type="submit" class="p-5 w-full ">Submit</Button>
 			</div>
 			<p>{form?.success || ''}</p>
 		</fieldset>

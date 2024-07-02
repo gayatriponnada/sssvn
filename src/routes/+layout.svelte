@@ -23,13 +23,13 @@
 				variant="outline"
 				class="md:hidden flex justify-end ml-3 "
 			>
+				{#if !menuOpen}
+					<span><MenuIcon /></span>
+				{/if}
 				{#if menuOpen}
 					<strong>&times</strong>
 				{/if}
-				{#if !menuOpen}
-					<span><MenuIcon /></span>
-				{/if}</Button
-			>
+			</Button>
 		</DropdownMenu.Trigger>
 		<DropdownMenu.Content class="w-full h-full">
 			<DropdownMenu.Group>
@@ -43,14 +43,12 @@
 			<DropdownMenu.Separator />
 		</DropdownMenu.Content>
 	</DropdownMenu.Root>
-	<ul
-		class="md:flex md:flex-row md:justify-evenly font-serif text-2xl border-b-2 p-5 hidden target:bg-primary"
-	>
-		<li>
-			<a class="" href="/">Home</a>
+	<ul class="md:flex md:flex-row md:justify-evenly font-serif text-2xl border-b-2 p-5 hidden">
+		<li class="">
+			<a class="active: focus:text-primary focus:border-b-4" href="/">Home</a>
 		</li>
 		<li>
-			<a href="/aboutus">About us</a>
+			<a class="focus:text-primary focus:border-b-4" href="/aboutus">About us</a>
 		</li>
 		<li>
 			<a href="/academics">Academics</a>
